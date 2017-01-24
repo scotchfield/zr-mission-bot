@@ -87,8 +87,8 @@ def main():
         )
         font_offset += font_height
 
-
     image.show()
+    image.save( 'output/' + url_filename )
 
 
 if __name__ == "__main__":
