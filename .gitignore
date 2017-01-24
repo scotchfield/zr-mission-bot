@@ -1,3 +1,5 @@
 config.py
 *.otf
 *.pyc
+
+cache/*.jpg
