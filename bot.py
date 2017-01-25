@@ -12,6 +12,7 @@ def main():
 
     image = zombify.getNewImage(url_filename)
     image = zombify.addMissionText(image, message_lines)
+    image = zombify.addStatsText(image)
 
     image.show()
     image.save('output/' + url_filename)
